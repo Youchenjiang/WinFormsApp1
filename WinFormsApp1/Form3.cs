@@ -58,5 +58,6 @@ namespace WinFormsApp1
             pictureBox1.Refresh();
             button1.Enabled = true;
         }
+
     }
 }
