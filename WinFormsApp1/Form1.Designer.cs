@@ -29,7 +29,17 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+            pictureBox1 = new PictureBox();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
+            // 
+            // pictureBox1
+            // 
+            pictureBox1.Location = new Point(327, 204);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new Size(247, 183);
+            pictureBox1.TabIndex = 0;
+            pictureBox1.TabStop = false;
             // 
             // Form1
             // 
@@ -37,11 +47,15 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
             ClientSize = new Size(1024, 600);
+            Controls.Add(pictureBox1);
             Name = "Form1";
             Text = "Form1";
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
         }
 
         #endregion
+
+        private PictureBox pictureBox1;
     }
 }
