@@ -13,6 +13,51 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Compile Include="obj\Debug\net8.0-windows\.NETCoreApp,Version=v8.0.AssemblyAttributes.cs" />
+    <Compile Include="obj\Debug\net8.0-windows\WinFormsApp1.AssemblyInfo.cs" />
+    <Compile Include="obj\Debug\net8.0-windows\WinFormsApp1.GlobalUsings.g.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="bin\Debug\net8.0-windows\WinFormsApp1.deps.json" />
+    <Content Include="bin\Debug\net8.0-windows\WinFormsApp1.runtimeconfig.json" />
+    <Content Include="obj\Debug\net8.0-windows\WinFormsApp1.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\Debug\net8.0-windows\WinFormsApp1.designer.deps.json" />
+    <Content Include="obj\Debug\net8.0-windows\WinFormsApp1.designer.runtimeconfig.json" />
+    <Content Include="obj\project.assets.json" />
+    <Content Include="obj\WinFormsApp1.csproj.nuget.dgspec.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\Database1.mdf" />
+    <None Include="bin\Debug\Database1_log.ldf" />
+    <None Include="bin\Debug\net8.0-windows\WinFormsApp1.dll" />
+    <None Include="bin\Debug\net8.0-windows\WinFormsApp1.exe" />
+    <None Include="bin\Debug\net8.0-windows\WinFormsApp1.pdb" />
+    <None Include="obj\Debug\net8.0-windows\apphost.exe" />
+    <None Include="obj\Debug\net8.0-windows\refint\WinFormsApp1.dll" />
+    <None Include="obj\Debug\net8.0-windows\ref\WinFormsApp1.dll" />
+    <None Include="obj\Debug\net8.0-windows\TempPE\Properties.Resources.Designer.cs.dll" />
+    <None Include="obj\Debug\net8.0-windows\WinFormsApp1.AssemblyInfoInputs.cache" />
+    <None Include="obj\Debug\net8.0-windows\WinFormsApp1.assets.cache" />
+    <None Include="obj\Debug\net8.0-windows\WinFormsApp1.csproj.BuildWithSkipAnalyzers" />
+    <None Include="obj\Debug\net8.0-windows\WinFormsApp1.csproj.CoreCompileInputs.cache" />
+    <None Include="obj\Debug\net8.0-windows\WinFormsApp1.csproj.GenerateResource.cache" />
+    <None Include="obj\Debug\net8.0-windows\WinFormsApp1.dll" />
+    <None Include="obj\Debug\net8.0-windows\WinFormsApp1.Form1.resources" />
+    <None Include="obj\Debug\net8.0-windows\WinFormsApp1.Form2.resources" />
+    <None Include="obj\Debug\net8.0-windows\WinFormsApp1.Form3.resources" />
+    <None Include="obj\Debug\net8.0-windows\WinFormsApp1.Form4.resources" />
+    <None Include="obj\Debug\net8.0-windows\WinFormsApp1.GeneratedMSBuildEditorConfig.editorconfig" />
+    <None Include="obj\Debug\net8.0-windows\WinFormsApp1.genruntimeconfig.cache" />
+    <None Include="obj\Debug\net8.0-windows\WinFormsApp1.pdb" />
+    <None Include="obj\Debug\net8.0-windows\WinFormsApp1.Properties.Resources.resources" />
+    <None Include="obj\project.nuget.cache" />
+    <None Include="obj\WinFormsApp1.csproj.nuget.g.props" />
+    <None Include="obj\WinFormsApp1.csproj.nuget.g.targets" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Compile Update="Properties\Resources.Designer.cs">
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>
@@ -25,6 +70,10 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="bin\Release\net8.0-windows\" />
   </ItemGroup>
 
 </Project>
